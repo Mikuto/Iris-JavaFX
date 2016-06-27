@@ -1,0 +1,55 @@
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: white;
+}
+ 
+.chart-content {
+    -fx-padding: 10px;    
+}
+ 
+.chart-title {
+    -fx-font-size: 18pt;    
+}
+ 
+ 
+.chart-legend {
+    -fx-font-size: 12pt;    
+    -fx-background-color:  transparent;
+    -fx-padding: 10px;
+}
+ 
+.axis-label {
+    -fx-font-size: 14pt;
+}
+ 
+.axis {
+    -fx-tick-label-font: 12pt system;
+}
+ 
+.chart-series-line {
+    -fx-stroke-width: 1px;
+    -fx-effect: null;
+}
+ 
+.default-color0.chart-series-line { -fx-stroke: transparent; }
+.default-color1.chart-series-line { -fx-stroke: blue; }
+ 
+.default-color0.chart-line-symbol { 
+    -fx-background-color: red;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-shape: "M2,0 L5,4 L8,0 L10,0 L10,2 L6,5 L10,8 L10,10 L8,10 L5,6 L2,
+        10 L0,10 L0,8 L4,5 L0,2 L0,0 Z";
+}
+ 
+.default-color1.chart-line-symbol { 
+    -fx-background-color: transparent, transparent; 
+}
+ 
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: blue;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-shape: "M0,5 L0,7 L12,7 L12,5 Z";
+    -fx-scale-shape: false;
+}
